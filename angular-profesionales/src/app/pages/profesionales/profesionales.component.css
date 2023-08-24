@@ -1,0 +1,43 @@
+.principal{
+background-color: black;
+}
+.izquierda{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: solid 1px rgb(255, 250, 250);
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+}
+.imagen{
+    width: 35%;
+    height:35%;
+    border: solid 1px yellow;
+    display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+#foto{
+    width: 100%;
+    height:100%;
+}
+input{
+    margin:2%;
+}
+li{
+    list-style:none;
+}
+.bo{
+    width:90%;
+    margin-top: 10%;
+    align-content: center;
+}

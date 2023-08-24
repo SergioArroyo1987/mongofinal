@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="principal">
+    <ng-container *ngFor="let mostrar of datos">
+    <div class="izquierda">
+        <div class="imagen">
+            <img src="{{mostrar.url}}" id="foto">
+        </div>
+        <div class="datos">
+           Nombre: <input type="text" id="name" value="{{mostrar.name}}" >
+           Apellido: <input type="text" id="apellido" value="{{mostrar.url}}" >
+           Correo: <input type="text" id="correo" value="{{mostrar.url}}">
+           
+        </div>
+    </div>
+</ng-container>
+</div>
+
+    
+</body>
+</html>
